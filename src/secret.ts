@@ -13,7 +13,8 @@
 // 7, 4 -> 3
 // All inputs must be >= 1
 export function secret_1(_num1: number, _num2: number): number {
-    return _num1 % _num2;
+    let val = _num1 % num2;
+    return val;
 }
 
 // Implements the following input to output mapping:
@@ -23,7 +24,8 @@ export function secret_1(_num1: number, _num2: number): number {
 // 7, 4 -> 2401
 // All inputs must be >= 1
 export function secret_2(_num1: number, _num2: number): number {
-    return _num1 ** _num2;
+    let val = _num1 ** _num2;
+    return val;
 }
 
 // Implements the following input to output mapping:
